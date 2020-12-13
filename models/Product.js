@@ -20,9 +20,32 @@ Product.init(
       //turn on auto increment
       autoIncrement: true
     },
-    catergory_name: {
+    product_name: {
       type: Sequelize.toString,
       allowNull: false
+    }, 
+    price: {
+      type: Sequelize.INTEGER,
+      allowNull: false,
+      validate: {
+        isDecimal: true
+      }
+    },
+    stock: {
+      type: Sequelize.INTEGER,
+      allowNull: false,
+      validate: {
+        isNumeric: true,
+      },
+      defaultValue: 10
+    },
+    category_id: {
+      type: Sequelize.INTEGER,
+      allowNull: false,
+      references: {
+        model: 'category',
+        key: 'id'
+      }
     }
   },
   {
