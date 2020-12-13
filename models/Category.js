@@ -18,7 +18,7 @@ Category.init(
       autoIncrement: true
     },
     category_name: {
-      type: Sequelize.toString,
+      type: Sequelize.STRING,
       allowNull: false
     }
   },

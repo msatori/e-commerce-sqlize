@@ -21,11 +21,11 @@ Product.init(
       autoIncrement: true
     },
     product_name: {
-      type: Sequelize.toString,
+      type: Sequelize.STRING,
       allowNull: false
     }, 
     price: {
-      type: Sequelize.INTEGER,
+      type: Sequelize.DECIMAL,
       allowNull: false,
       validate: {
         isDecimal: true
