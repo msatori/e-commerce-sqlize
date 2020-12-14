@@ -18,7 +18,7 @@
   ## Installation
     npm install
     
-[![Application Demo](./assets\Picture1.png)](https://drive.google.com/file/d/1K1Z35XOSwr0qXvQfkpKi-gi73YgVvqTn/view "App Demo")
+[![Application Demo](/assets/Picture1.png)](https://drive.google.com/file/d/1K1Z35XOSwr0qXvQfkpKi-gi73YgVvqTn/view "App Demo")
   ## Usage 
     This is intended for any e-commerce retailer.
 
