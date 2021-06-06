@@ -1,7 +1,9 @@
  # E-Commerce-Sqlize [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
  ## Description 
-   Sequelize driven backend for an e-commerce platform, compatible with a MySql database. 
+   Sequelize driven backend for an e-commerce platform. Refactored from an Express.js API to be compatible with a      MySql database. 
+   
+   **Click on photo below to view video demonstration via InsomniaCore.
 
 
   ## Table of Contents (Optional)
@@ -21,7 +23,7 @@
     This is intended for any e-commerce retailer.
 
   ## CREDITS
-    
+    [Xander Rapstein - original Express API}(https://github.com/Xandromus)
 
   ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
