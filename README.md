@@ -1,8 +1,7 @@
  # E-Commerce-Sqlize [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
  ## Description 
-This project is the week 13 homework for the University of Wisconsin Extended Campus Coding Bootcamp. It is designed as the backend for any sort of e-commerce application. 
- 
+   Sequelize driven backend for an e-commerce platform, compatible with a MySql database. 
 
 
   ## Table of Contents (Optional)
